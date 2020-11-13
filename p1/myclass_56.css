@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-size: 0.9rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container table {
+  border: solid 2px rgb(255, 255, 255);
+  padding: 5px;
+  background: rgb(141, 226, 152);
+  width: 100%;
+  font-weight: 600;
+}
+
+.container .session {
+  background-color: rgb(248, 128, 31);
+  text-align: center;
+  width: 30px;
+}
+
+.name {
+  background: slateblue;
+  color: white;
+  text-align: center;
+  font-size: 1.05rem;
+}
+.content {
+  background-color: rgb(59, 59, 255);
+  color: white;
+  text-align: center;
+  width: 700px;
+  height: 50px;
+}
+
+.container .day {
+  background-color: burlywood;
+  text-align: center;
+  height: 30px;
+
+}
+.time {
+  background: rgb(245, 225, 161);
+  text-align: center;
+  padding: 10px;
+  font-style: oblique;
+}
+
+.footer {
+  text-align: center;
+  background: rgba(105, 90, 205, 0.473);
+  font-size: 1.1rem;
+  width: 150px;
+  height: 70px;
+  
+}
+.detailed {
+  background: rgb(175, 175, 175);
+  text-align: left;
+  font-weight: 650;
+  font-size: 1.03rem;
+  padding: 10px;
+  font-style: oblique;
+}
